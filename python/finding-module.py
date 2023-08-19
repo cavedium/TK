@@ -3,4 +3,4 @@ def module(a, b):
 
 num = int(input("Enter number: "))
 mod = int(input("Enter module: "))
-print("Result = ", module(num, mod))
+print(f"{num}mod{mod} = ", module(num, mod))
